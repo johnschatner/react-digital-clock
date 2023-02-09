@@ -7,6 +7,7 @@ export default function Credit() {
       <span className="credit__name">
         <a
           target={"_blank"}
+          rel="noreferrer"
           href="https://github.com/johnschatner/react-digital-clock"
         >
           John Schatner
