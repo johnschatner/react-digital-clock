@@ -14,7 +14,7 @@ export default function DigitalClock(props) {
   document.title = `${render(hours)}:${render(minutes)}`;
 
   const toggleTextSize = (e) => {
-    const clock = e.target.parentElement;
+    const clock = document.querySelector(".clock-time");
     console.log(clock);
     clock.classList.toggle("big");
   };
