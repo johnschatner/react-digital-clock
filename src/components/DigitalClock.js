@@ -15,7 +15,6 @@ export default function DigitalClock(props) {
 
   const toggleTextSize = (e) => {
     const clock = document.querySelector(".clock-time");
-    console.log(clock);
     clock.classList.toggle("big");
   };
 
