@@ -4,24 +4,62 @@
   font-family: "Raleway", sans-serif;
 }
 
-.digital-clock {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-55%, -400%);
-}
-.clock-title {
-  font-size: 2rem;
-  opacity: 0.8;
-}
-
 .clock-time {
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-55%, 50%);
+  transform: translateX(-60%);
   font-size: 6rem;
   max-width: 280px;
+
+  transform-origin: left center;
+  transition: 150ms ease-in-out;
+
+  animation-name: reverseOpacity;
+  animation-duration: 0.25s;
+}
+.clock-time:hover {
+  cursor: pointer;
+  animation-name: opacity;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+@keyframes reverseOpacity {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+@media screen and (min-width: 550px) {
+  .big {
+    scale: 1.5;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .big {
+    scale: 3;
+  }
 }
 
 .divider {
@@ -30,11 +68,11 @@
 
 .hours,
 .minutes {
-  color: #c5cae9;
+  color: #5b8fb9;
 }
 
 .seconds {
-  animation: textFade 1000ms 975ms infinite linear;
+  animation: textFade 1000ms infinite linear;
 }
 
 @keyframes textFade {
@@ -42,6 +80,6 @@
     opacity: 0.15;
   }
   100% {
-    opacity: 0.4;
+    opacity: 0.2;
   }
 }

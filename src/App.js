@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 
 // Components
 import DigitalClock from "./components/DigitalClock";
+import Credit from "./components/Credit";
 
 // Root
 function App() {
@@ -21,7 +22,8 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <DigitalClock date={clock}></DigitalClock>
+        <DigitalClock date={clock} />
+        <Credit />
       </div>
     </div>
   );
