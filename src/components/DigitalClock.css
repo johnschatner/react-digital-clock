@@ -75,6 +75,13 @@
   animation: textFade 1000ms infinite linear;
 }
 
+.hours,
+.minutes,
+.seconds,
+.divider {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
 @keyframes textFade {
   0% {
     opacity: 0.15;
