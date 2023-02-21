@@ -36,10 +36,9 @@
   <p align="center">
     A modern digital clock built with ReactJS
     <br />
-    <a href="https://github.com/johnschatner/react-digital-clock"><strong>Explore the docs »</strong></a>
+    <a href="https://johns-react-digital-clock.netlify.app/"><strong>View Demo »</strong></a>
     <br />
     <br />
-    <a href="https://johns-react-digital-clock.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/johnschatner/react-digital-clock/issues">Report Bug</a>
     ·
