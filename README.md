@@ -79,7 +79,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://johns-react-digital-clock.netlify.app/)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `johnschatner`, `react-digital-clock`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `johnschatner`, `react-digital-clock`, `twitter_handle`, `isac-rasmusson-99344924b`, `gmail`, `isacrs.dev`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,7 +175,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Isac - isacrs.dev@gmail.com
 
 Project Link: [https://github.com/johnschatner/react-digital-clock](https://github.com/johnschatner/react-digital-clock)
 
@@ -205,7 +205,7 @@ Project Link: [https://github.com/johnschatner/react-digital-clock](https://gith
 [license-shield]: https://img.shields.io/github/license/johnschatner/react-digital-clock.svg?style=for-the-badge
 [license-url]: https://github.com/johnschatner/react-digital-clock/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/isac-rasmusson-99344924b
 [product-screenshot]: public/project-screen-1.png
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [next-url]: https://nextjs.org/
