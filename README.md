@@ -39,7 +39,6 @@
     <a href="https://johns-react-digital-clock.netlify.app/"><strong>View Demo »</strong></a>
     <br />
     <br />
-    ·
     <a href="https://github.com/johnschatner/react-digital-clock/issues">Report Bug</a>
     ·
     <a href="https://github.com/johnschatner/react-digital-clock/issues">Request Feature</a>
