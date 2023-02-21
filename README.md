@@ -79,7 +79,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://johns-react-digital-clock.netlify.app/)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `johnschatner`, `react-digital-clock`, `twitter_handle`, `isac-rasmusson-99344924b`, `gmail`, `isacrs.dev`, `project_title`, `project_description`
+Here's a blank template to get started
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
