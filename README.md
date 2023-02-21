@@ -78,6 +78,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://johns-react-digital-clock.netlify.app/)
 
 An elegant Digital Clock with a handful of useful features only 6.15KB in size.
+<br>
 
 - Resizeable (clicking makes clock LARGE or small)
 - Tab time (time can be seen in the browser tab)
