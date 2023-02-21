@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/johnschatner/react-digital-clock">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">React Digital Clock</h3>
