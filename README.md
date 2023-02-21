@@ -99,7 +99,9 @@ An elegant Digital Clock with a handful of useful features only 6.15KB in size.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+<a target="_blank" href="https://johns-react-digital-clock.netlify.app/"><strong>View Demo »</strong></a>
+
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -130,6 +132,8 @@ This project uses npm, please install the latest version:
 <!-- USAGE EXAMPLES -->
 
 ## Usage
+
+<a target="_blank" href="https://johns-react-digital-clock.netlify.app/"><strong>View Demo »</strong></a>
 
 The clock will work right away without any further configuration required on your end.
 
