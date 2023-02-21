@@ -82,10 +82,10 @@ An elegant Digital Clock with a handful of useful features only 6.15KB in size.
 <br>
 
 - Resizeable (clicking makes clock LARGE or small)
-- Tab time (time can be seen in the browser tab)
+- Tab view (time can be seen in the browser tab)
 - Responsive
-- Second animation
-- Built in ReactJS
+- Seconds animation
+- Built with ReactJS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
