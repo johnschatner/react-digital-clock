@@ -33,8 +33,6 @@
     <img src="public/logo.png" alt="Logo" width="387" height="62">
   </a>
 
-<h3 align="center">React Digital Clock</h3>
-
   <p align="center">
     A modern digital clock built with ReactJS
     <br />
