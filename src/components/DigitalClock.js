@@ -11,7 +11,7 @@ export default function DigitalClock(props) {
   }
 
   // Update the website title with the state
-  document.title = `${render(hours)}:${render(minutes)}:${render(seconds)}`;
+  document.title = `${render(hours)}:${render(minutes)}`;
 
   const toggleTextSize = (e) => {
     const clock = document.querySelector(".clock-time");
