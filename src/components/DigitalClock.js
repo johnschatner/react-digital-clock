@@ -1,4 +1,5 @@
 import "./DigitalClock.css";
+import "./mobile.css";
 
 export default function DigitalClock(props) {
   const hours = props.date.getHours();

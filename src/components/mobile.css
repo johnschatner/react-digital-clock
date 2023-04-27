@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  .clock-time {
+    font-size: 4rem;
+    max-width: 180px;
+  }
+  .credit {
+    font-size: 0.75rem !important;
+  }
+  .hint {
+    display: none !important;
+  }
+}
