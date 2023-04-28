@@ -1,7 +1,20 @@
 import "./DigitalClock.css";
 import "./mobile.css";
+import { useState, useEffect } from "react";
 
 export default function DigitalClock(props) {
+  const [canClick, setCanClick] = useState(window.innerWidth > 768);
+
+  const updateMedia = () => {
+    setCanClick(window.innerWidth > 768);
+  };
+
+  useEffect(() => {
+    console.log(canClick);
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
   const hours = props.date.getHours();
   const minutes = props.date.getMinutes();
   const seconds = props.date.getSeconds();
@@ -20,7 +33,10 @@ export default function DigitalClock(props) {
   };
 
   return (
-    <div onClick={toggleTextSize} className="clock-time noselect">
+    <div
+      onClick={canClick ? toggleTextSize : null}
+      className="clock-time noselect"
+    >
       <span className="hours">{render(hours)}</span>
       <span className="divider">:</span>
       <span className="minutes">{render(minutes)}</span>

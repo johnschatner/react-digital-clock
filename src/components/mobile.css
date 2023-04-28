@@ -2,11 +2,15 @@
   .clock-time {
     font-size: 4rem;
     max-width: 180px;
+    animation: none;
   }
   .credit {
     font-size: 0.75rem !important;
   }
   .hint {
     display: none !important;
+  }
+  .clock-time:hover {
+    animation: none;
   }
 }
